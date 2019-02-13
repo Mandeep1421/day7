@@ -39,3 +39,52 @@ class Person
 p1.setData()
 p1.display()
 
+
+
+
+
+class Student
+{
+    private var sid: Int
+    private var fname:String
+    private var lname:String
+    
+    init()
+    {
+        sid = 0
+        fname = String()
+        lname = String()
+        
+    }
+    
+    init(sid:Int, fname:String, lname:String)
+    {
+        self.sid = sid
+        self.fname = fname
+        self.lname = lname
+    }
+    
+    
+    func display()
+    {
+        print("Student Id : \(self.sid)")
+        print("Student First Name : \(self.fname)")
+        print("Student last Name : \(self.lname)")
+}
+
+}
+
+var s1 = Student()
+s1.display()
+
+/*
+s1.sid = 100
+s1.fname = "Akshay"
+s1.lname = "Kumar"
+*/
+s1.display()
+
+
+let s2 = Student(sid: 200, fname: "Akshay", lname: "Kumar")
+
+s2.display()
