@@ -47,5 +47,17 @@ for x in S
 
 
 
+var c1 = Car()
+c1.vin = "Trak08829"
+c1.model = "abdkl"
+c1.speed = 70.0
+c1.color = .Black
+c1.type = "ssdfg"
 
+c1.display()
 
+for c in Color.allCases
+
+{
+    print(c)
+}
