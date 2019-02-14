@@ -14,6 +14,12 @@ struct Employee
     var ename: String
     var salary: Float
 
+    init ()
+    {
+        eid = -1
+        ename = String()
+        salary = 0.0
+    }
  func display()
  {
     print("Employee Id: \(self.eid)")
@@ -21,4 +27,9 @@ struct Employee
     print("Salary: \(self.salary)")
     
 }
+    
+    mutating func setName(name: String)
+    {
+        self.ename = name
+    }
 }

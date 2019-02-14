@@ -65,6 +65,24 @@ for c in Color.allCases
 print("------------------Structure Example----------------")
 
 
-var e1 = Employee(eid: 1, ename: "Anjali", salary: 1200.0)
-
+//var e1 = Employee(eid: 1, ename: "Anjali", salary: 1200.0)
+var e1 = Employee()
 e1.display()
+
+print("----------------------------------")
+var i: Int = 100
+var  a: Int
+
+a = i
+ a = 200
+
+//print(a,i)
+
+
+
+var e2 = e1
+
+e2.eid = 200
+e2.setName(name: "Goldy")
+e2.display()
+
