@@ -61,3 +61,10 @@ for c in Color.allCases
 {
     print(c)
 }
+
+print("------------------Structure Example----------------")
+
+
+var e1 = Employee(eid: 1, ename: "Anjali", salary: 1200.0)
+
+e1.display()

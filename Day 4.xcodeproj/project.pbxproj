@@ -11,6 +11,7 @@
 		9BB5F2BB2214E86A00F327DC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5F2BA2214E86A00F327DC /* Student.swift */; };
 		9BB5F2BD2214E91700F327DC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5F2BC2214E91700F327DC /* Person.swift */; };
 		9BB5F2BF2214E9FA00F327DC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5F2BE2214E9FA00F327DC /* Car.swift */; };
+		9BB5F2C12214F95C00F327DC /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5F2C02214F95C00F327DC /* Structure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9BB5F2BA2214E86A00F327DC /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		9BB5F2BC2214E91700F327DC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9BB5F2BE2214E9FA00F327DC /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BB5F2C02214F95C00F327DC /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9BB5F2BA2214E86A00F327DC /* Student.swift */,
 				9BB5F2BC2214E91700F327DC /* Person.swift */,
 				9BB5F2BE2214E9FA00F327DC /* Car.swift */,
+				9BB5F2C02214F95C00F327DC /* Structure.swift */,
 			);
 			path = "Day 4";
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				9BB5F2BD2214E91700F327DC /* Person.swift in Sources */,
 				9BB5F2B42214DA9300F327DC /* main.swift in Sources */,
+				9BB5F2C12214F95C00F327DC /* Structure.swift in Sources */,
 				9BB5F2BF2214E9FA00F327DC /* Car.swift in Sources */,
 				9BB5F2BB2214E86A00F327DC /* Student.swift in Sources */,
 			);
